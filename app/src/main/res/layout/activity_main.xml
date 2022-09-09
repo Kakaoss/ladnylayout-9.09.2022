@@ -17,21 +17,65 @@
         tools:ignore="MissingConstraints">
     </TextView>
     <TextView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="Zakup coś w naszym sklepie"
         android:translationX="330px"
         android:translationY="400px"
         android:textSize="40px"
-        ></TextView>
+        tools:ignore="MissingConstraints"></TextView>
+
     <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="200dp"
+        tools:srcCompat="@drawable/banana"></ImageView>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX = "130dp"
+        tools:layout_editor_absoluteY = "255dp"
+        tools:srcCompat="@drawable/gruszka"
+        tools:ignore="MissingConstraints"></ImageView>
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="200dp"
+        tools:layout_editor_absoluteX = "255dp"
+        tools:layout_editor_absoluteY = "200dp"
+        tools:srcCompat="@drawable/jabko"
+        tools:ignore="MissingConstraints"></ImageView>
+    <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX = "50dp"
-        tools:layout_editor_absoluteY = "300dp"
-        tools:srcCompat="@tools:sample/avatars"
-    ></ImageView>
-
-
-
+        android:inputType="number"
+        tools:layout_editor_absoluteX = "260dp"
+        tools:layout_editor_absoluteY = "370dp"
+        android:ems="5"
+        tools:ignore="MissingConstraints"></EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:layout_editor_absoluteX = "5dp"
+        tools:layout_editor_absoluteY = "370dp"
+        android:ems="5"
+        tools:ignore="MissingConstraints"></EditText>
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        tools:layout_editor_absoluteX = "140dp"
+        tools:layout_editor_absoluteY = "370dp"
+        android:ems="5"
+        tools:ignore="MissingConstraints"></EditText>
+ <Button
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:text="zakup"
+     tools:layout_editor_absoluteX = "140dp"
+     tools:layout_editor_absoluteY = "450dp"
+     tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
